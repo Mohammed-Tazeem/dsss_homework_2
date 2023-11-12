@@ -4,19 +4,16 @@ setup(
     name='math-quiz-game',
     version='1.0.0',
     packages=find_packages(),
-    install_requires=[
-        # Add any dependencies your project requires
-        'random',
-    ],
+    install_requires=[],
     entry_points={
         'console_scripts': [
-            'math-quiz = math_quiz:math_quiz',  # Adjust this based on your project structure
+            'math-quiz = math_quiz:math_quiz',
         ],
     },
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='Mohammed Tazeem Khan',
+    author_email='mohammed.t.khan@fau.de',
     description='A simple math quiz game in Python',
-    url='https://github.com/yourusername/math-quiz-game',
+    url='https://github.com/Mohammed-Tazeem/dsss_homework_2.git',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
